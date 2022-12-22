@@ -1,0 +1,70 @@
+
+@media screen and (max-width:900px){
+    body{
+    background-color: linear-gradient(to bottom, #666699 ,#993366); 
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 97vh;
+    width: 100%;
+    /*background-color: pink;*/
+    /*background-image: linear-gradient(#5858a6,#383842);*/
+    background: linear-gradient(to bottom, #666699 ,#993366); 
+    /*background-size: cover; */ 
+    /*background-position: center;*/
+    /*position:relative;*/
+
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow:1px 2px rgba(10, 17, 6, 0.589);
+    
+}
+.container{
+    background-image: linear-gradient(#524a4d,#7d8185);
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding:10px;
+}
+
+.inputClass{
+    display: flex;
+}
+.inputClass input{
+    flex: 1;
+    padding: 9px;    
+   
+}
+.inputClass button{
+    background-color:rgb(16, 121, 89);
+    border: unset;  
+    color: white;    /*text color*/
+}
+
+.listClass ul{
+    padding: 0;
+    margin: 0;
+    list-style-type:none;  /*to remove the dots*/
+    margin-top: 10px;
+}
+.listClass ul li{
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-between;  /*provides space between the text and the symbol*/
+    /*padding: 10px;*/
+    align-items: center;
+}
+.listClass ul li .close{
+    background-color: rgb(196, 44, 44);
+    color: white;
+    padding: 10px;
+}
+
+.listClass ul li .done{
+    text-decoration: line-through;
+}
